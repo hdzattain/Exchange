@@ -13,3 +13,6 @@ struct SellOrderCompare {
   }
 };
 
+OrderQueue<BuyOrderCompare> buyQueue;
+OrderQueue<SellOrderCompare> sellQueue;
+
